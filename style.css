@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  background-color: snow;
+}
+h1 {
+  color: darkorange;
+  text-shadow: 1px 1px dimgray, -1px -1px dimgray, 1px -1px dimgray, -1px 1px dimgray;
+  text-align: center;
+}
+
+#board {
+  width: 498px;
+  height: 498px;
+  margin: 100px auto;
+}
+#choose {
+  width: 498px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px;
+  color: snow;
+  text-shadow: 1px 1px dimgray, -1px -1px dimgray, 1px -1px dimgray, -1px 1px dimgray;
+}
+#choose button {
+  font-size: 50px;
+  width: 100px;
+  background-color: snow;
+  color: dimgray;
+  border-radius: 5px;
+  margin: 30px 5px 30px 5px;
+}
+#choose button:hover {
+  color: orange;
+}
+.cell {
+  width: 166px;
+  height: 166px;
+  background-color: inherit;
+  font-size: 80px;
+
+}
+button {
+  outline: none;
+  border: none;
+  color: dimgray;
+}
+#c00 {
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+#c01 {
+  border-left: 5px solid orange;
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+#c02 {
+  border-left: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+#c10 {
+  border-right: 5px solid orange;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+#c11 {
+  border-left: 5px solid orange;
+  border-right: 5px solid orange;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+#c12 {
+  border-left: 5px solid orange;
+  border-top: 5px solid orange;
+  border-bottom: 5px solid orange;
+}
+#c20 {
+  border-right: 5px solid orange;
+  border-top: 5px solid orange;
+}
+#c21 {
+  border-left: 5px solid orange;
+  border-right: 5px solid orange;
+  border-top: 5px solid orange;
+}
+#c22 {
+  border-left: 5px solid orange;
+  border-top: 5px solid orange;
+}
